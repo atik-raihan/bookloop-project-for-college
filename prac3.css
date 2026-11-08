@@ -1,0 +1,42 @@
+.abc{
+    height: 100px;
+    width: 100px;
+}
+
+#navbar{
+    background-color: black;
+    height: 60px;
+    color:white;
+}
+
+#aa {
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color:#f08804;
+    font-size: 26px;
+}
+a{
+    margin-right:200px ;
+    text-decoration: none;
+}
+.abc{
+     
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    
+}
+#content1{
+    height: 800px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
