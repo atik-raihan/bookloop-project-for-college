@@ -1,0 +1,26 @@
+ 
+#one{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+#two{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    visibility: hidden;
+}
+#three{
+    background-color: rgba(255,0,0, 0.66);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+ 
