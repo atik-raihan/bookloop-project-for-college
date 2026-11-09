@@ -11,6 +11,22 @@ a{
 }
 li{
     list-style-type: none;
+
     
-    
+}
+
+.inner{
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    display: flex;
+    direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.add{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
 }
