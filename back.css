@@ -13,15 +13,20 @@ div{
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    align-content: flex-start;
+    /* align-content: flex-start; */
 }
 
 #box1{
     background-color:darkblue ;
+    flex-grow: 1;
 }
 #box2{
     background-color:aqua ;
     height: 200px;
+    /* align-self: center; */
+    flex-shrink: 1;
+    flex-grow: 2;
+    
 }
 #box3{
     background-color: pink;
