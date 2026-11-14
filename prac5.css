@@ -1,0 +1,18 @@
+.loader{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 20px solid rgb(114, 179, 214);
+    border-left: 20px solid rgb(238, 105, 216);
+
+    animation: colorr 1s steps(4) 0s infinite normal;
+}
+
+@keyframes colorr{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
