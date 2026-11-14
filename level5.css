@@ -1,4 +1,4 @@
-div{
+/* div{
     height: 100px;
     width: 100px;
     background-color: green;
@@ -8,12 +8,37 @@ div{
     top: 100px;
     transition:all 2s ease-in-out 1s;
     transform: scale(3,1);
-}
-div:hover{
+} */
+/* div:hover{
     background-color: red;
     color: white;
     transform: skew(60deg);
    
 
-} 
+}  */
 
+div{
+    height: 200px;
+    width:200px;
+    background-color: mediumpurple;
+    border: 2px solid greenyellow;
+    position: absolute;
+    top: 100px;
+    /* animation-name: coloranima; */
+    /* animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate ; */
+    animation: coloranima 1s linear 2s infinite reverse;
+
+}
+@keyframes coloranima{
+    from {
+        left: 0px;
+    background-color: aqua;
+    }
+    to {
+        left: 300px;
+    background-color: black;}
+}
