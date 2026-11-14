@@ -1,6 +1,6 @@
 div{
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     background-color: pink;
 }
 @media (width:600px) and (max-width:700){
@@ -8,8 +8,13 @@ div{
         background-color: red;
     }
 }
-@media(min-width:701px){
+@media(min-width:701px) and (max-width:900px){
     div{
         background-color: green;
+    }
+}
+@media(min-width:900px) and (max-width:1500px){
+    div{
+        background-color: midnightblue;
     }
 }
