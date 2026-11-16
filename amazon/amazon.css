@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #f85606;
+    color: white;
+}
+.nav-logo {
+    height: 1178px;
+    width: 118.4px;
+}
+.logo {
+    background-image:url(darazlogo.png);
+    background-size: cover;
+    height: 40px;
+    width: 127px;
+
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
